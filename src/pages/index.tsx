@@ -94,7 +94,7 @@ export default function Home() {
 										Yes I will
 									</button>
 									<button className="btn btn-secondary" onClick={handleNoClick}>
-										No I won't :(
+										No I wont :(
 									</button>
 								</div>
 							</div>
@@ -102,7 +102,7 @@ export default function Home() {
 					)}
 					{clickedText && (
 						<div className="mt-4 text-2xl font-bold">
-							Your Valentine's gift is:
+							Your Valentines gift is:
 							<br />
 							<span className="text-primary">{clickedText}</span>
 						</div>
